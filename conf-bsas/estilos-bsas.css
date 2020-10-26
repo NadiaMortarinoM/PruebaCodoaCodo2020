@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.codo{
+    height: 70px;
+    width: 90px;
+}
+.barra-right{
+    margin-left: 140px;
+    justify-content: flex-end;
+}
+.titulo{
+    padding-top: 90px;
+    padding-right: 70px;
+}
+.frase{
+    padding-right: 50px;
+}
+.verde{
+    margin-right: 50px;
+    background-color: rgb(98, 192, 4);
+    border:  rgb(98, 192, 4);
+}
+.oradores-tarjetas{
+    text-align: center;
+    margin-top: 20px;}
+.cartas{
+   text-align: justify;
+}
+.honolulu{
+    width: 560px;
+    height: 290px;
+}
+.conoce{
+    border: 2px solid white;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preguntas{
+    background-color: #394989;
+    color: aliceblue;
+    margin-top: 10px;
+    height: 60px;
+    
+}
+@media (max-width: 600px){
+    footer{
+        flex-direction: row;
+    }
+
+}
+

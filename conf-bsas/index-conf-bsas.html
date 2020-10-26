@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <title>Conf-BsAs</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos-bsas.css">
+</head>
+
+<!--trabajando con los complementos de bootstrap-->
+
+<body>
+  <!--creando la barra de navegación-->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="barra-left">
+        <img class="codo" src="codoacodo.png" alt="logo de codo_codo">
+        <a class="navbar-brand" href="#">Conf Bs As</a>
+      </div>
+      <div class="barra-right">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los/as Oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar-Fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviertete en Orador/a</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#">Comprar Tickets</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <!--Carousel de las imagenes de bs as como fondo-->
+  <div class="container" position="absolute">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-white text-right fondo">
+          <img src="ba1.jpg" class="d-block w-100" alt="imagen del fondo">
+          <div class="card-img-overlay">
+            <h1 class="card-title text-right titulo">Conf Bs As</h1>
+            <p class="card-text text-right frase">Bs As llega por primera vez a Argentina. Un evento para compartir con
+              <br>nuestra comunidad
+              el conocimiento y experiencia de los expertos que están <br>creando el futuro internet.
+              Ven a conocer a miembros del evento, a otros <br>estudiantes de Codo a Codo y a los oradores de primer
+              nivel que tenemos <br>para ti. <br>Te esperamos!</p>
+            <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+            <a href="#" class="btn btn-success verde">Comprar Tickets</a>
+          </div>
+        </div>
+        <div class="carousel-item text-white text-right fondo">
+          <img src="ba2.jpg" class="d-block w-100" alt="imagenes de fondo">
+          <div class="card-img-overlay">
+            <h1 class="card-title text-right titulo">Conf Bs As</h1>
+            <p class="card-text text-right frase">Bs As llega por primera vez a Argentina. Un evento para compartir con
+              <br>nuestra comunidad
+              el conocimiento y experiencia de los expertos que están <br>creando el futuro internet.
+              Ven a conocer a miembros del evento, a otros <br>estudiantes de Codo a Codo y a los oradores de primer
+              nivel que tenemos <br>para ti. <br>Te esperamos!</p>
+            <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+            <a href="#" class="btn btn-success verde">Comprar Tickets</a>
+          </div>
+        </div>
+        <div class="carousel-item text-white text-right fondo">
+          <img src="ba3.jpg" class="d-block w-100" alt="imagenes de fondo">
+          <div class="card-img-overlay">
+            <h1 class="card-title text-right titulo">Conf Bs As</h1>
+            <p class="card-text text-right frase">Bs As llega por primera vez a Argentina. Un evento para compartir con
+              <br>nuestra comunidad
+              el conocimiento y experiencia de los expertos que están <br>creando el futuro internet.
+              Ven a conocer a miembros del evento, a otros <br>estudiantes de Codo a Codo y a los oradores de primer
+              nivel que tenemos <br>para ti. <br>Te esperamos!</p>
+            <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+            <a href="#" class="btn btn-success verde">Comprar Tickets</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!--Sección de las tarjetas de oradores-->
+  <div class="container">
+    <h6 class="oradores-tarjetas">CONOCE A LOS</h6>
+    <h2 class="oradores-tarjetas">ORADORES</h2>
+    <div class="card-deck bg-light cartas">
+      <div class="card">
+        <img src="steve.jpg" class="card-img-top" alt="imagen de steve jobs">
+        <div class="card-body">
+          <h5 class="card-title">Steve Jobs</h5>
+          <span class="badge badge-warning">JavaScript</span>
+          <span class="badge badge-info">React</span>
+          <p class="card-text">Steven Paul Jobs, ​​​​ más conocido como Steve Jobs, fue un empresario y magnate de los
+            negocios en el sector informático y de la industria del entretenimiento estadounidense. Fue cofundador y
+            presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="bill.jpg" class="card-img-top" alt="imagen de bill gates">
+        <div class="card-body">
+          <h5 class="card-title">Bill Gates</h5>
+          <span class="badge badge-warning">JavaScript</span>
+          <span class="badge badge-info">React</span>
+          <p class="card-text">William Henry Gates III, ​ conocido como Bill Gates, es un multimillonario magnate
+            empresarial, informático y filántropo​ estadounidense, cofundador de la empresa de software Microsoft junto
+            con Paul Allent.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="ada.jpeg" class="card-img-top" alt="imagen de ada lovelace">
+        <div class="card-body">
+          <h5 class="card-title">Ada Loverace</h5>
+          <span class="badge badge-secondary">Negocios</span>
+          <span class="badge badge-danger">Startups</span>
+          <p class="card-text">Augusta Ada King, Condesa de Lovelace, registrada al nacer como Augusta Ada Byron y
+            conocida habitualmente como Ada Lovelace, fue una matemática, informática y escritora británica, célebre
+            sobre todo por su trabajo acerca de la calculadora de uso general de Charles Babbage, la denominada máquina
+            analítica.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="background-color: darkslategrey;">
+
+  <!--seccion Bs As Octubre 2020-->
+  <div class="container">
+    <div class="card mb-6">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="honolulu.jpg" class="card-img honolulu" alt="imagen de la presentacion sobre bs as">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body bg-secondary text-white">
+            <h2 class="card-title">Bs As-Octubre 2020</h2>
+            <p class="card-text">Buenos Aires es la provincia y localidad más grande de Argentina, en los Estados Unido,
+              Honolulu es la más sureña de entre las ciudades estadounidenses.
+              Aunque el nombre se refiere al área urbana de la costa sureña de la isla de Oahu, la ciudad y el condado
+              de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de
+              superficie).</p>
+            <a href="#" class="btn btn-secondary conoce">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--sección del formulario para ser orador-->
+  <div class="container">
+    <h6 class="oradores-tarjetas">CONOCE A LOS</h6>
+    <h2 class="oradores-tarjetas">ORADORES</h2>
+  </div>
+  <div class="container formulario">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="form-group col-md-6">
+          <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+        <div class="form-group col-md-12">
+          <textarea class="form-control" placeholder="Sobre qué quires hablar?" rows="3"></textarea>
+          <label for="inputCity">Recuerda incluir un título para tu charla</label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-success btn-lg btn-block col-md-12">Enviar</button>
+    </form>
+  </div>
+
+<!--footer de la sección bs as-->
+<div class="container text-white pt-3 preguntas">
+<ul class="nav">
+  <li class="nav-item">
+    <div class="col">Preguntas frecuentes</div>
+  </li>
+  <li class="nav-item">
+    <div class="col">Contáctanos</div>
+  </li>
+  <li class="nav-item">
+    <div class="col">Prensa</div>
+  </li>
+  <li class="nav-item">
+    <div class="col">Conferencias</div>
+  </li>
+  <li class="nav-item">
+    <div class="col">Términos y Condiciones</div>
+  </li>
+  <li class="nav-item">
+    <div class="col">Privacidad</div>
+  </li>
+  <li class="nav-item">
+    <div class="col">Estudiantes</div>
+  </li>
+</ul>
+</div>
+  
+
+
+  <!-- Optional JavaScript -->
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
